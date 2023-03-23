@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<MenuButton xmlns:fx="http://javafx.com/fxml" fx:id="languageMenu"
+			fx:controller="picross.controllers.menu.LanguageMenuController">
+	<items>
+		<MenuItem fx:id="englishMenuItem" onAction="#handleEnglishSelect" />
+		<MenuItem fx:id="frenchMenuItem" onAction="#handleFrenchSelect" />
+	</items>
+</MenuButton>

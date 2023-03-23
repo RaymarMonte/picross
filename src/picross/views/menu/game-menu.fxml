@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<MenuButton xmlns:fx="http://javafx.com/fxml" fx:id="gameMenu"
+			fx:controller="picross.controllers.menu.GameMenuController">
+	<items>
+		<MenuItem fx:id="saveMenuItem" onAction="#handleSaveAction"/>
+		<MenuItem fx:id="loadMenuItem" onAction="#handleLoadAction"/>
+		<MenuItem fx:id="resetMenuItem" onAction="#handleResetAction"/>
+		<MenuItem fx:id="solutionMenuItem" onAction="#handleSolutionAction"/>
+		<Menu fx:id="colorPickerMenuItem">
+			<MenuItem fx:id="greenSubMenuItem" onAction="#handleGreenSelect"/>
+			<MenuItem fx:id="blueSubMenuItem" onAction="#handleBlueSelect"/>
+			<MenuItem fx:id="purpleSubMenuItem" onAction="#handlePurpleSelect"/>
+			<MenuItem fx:id="orangeSubMenuItem" onAction="#handleOrangeSelect" />
+		</Menu>
+		<MenuItem fx:id="exitMenuItem" onAction="#handleExitAction"/>
+	</items>
+</MenuButton>

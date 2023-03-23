@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.layout.HBox?>
+<HBox xmlns:fx="http://javafx.com/fxml" fx:controller="picross.controllers.menu.MenuController" alignment="CENTER" spacing="5">
+	<fx:include fx:id="gameMenu" source="game-menu.fxml" prefHeight="30" prefWidth="95" style="-fx-background-color: #D9D9D9" />
+	<fx:include fx:id="languageMenu" source="language-menu.fxml" prefHeight="30" prefWidth="95" style="-fx-background-color: #D9D9D9" />
+	<fx:include source="help-menu.fxml" prefHeight="30" prefWidth="95" style="-fx-background-color: #D9D9D9" />
+</HBox>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<HBox xmlns:fx="http://javafx.com/fxml" fx:controller="picross.controllers.board.PlayableCellController" fx:id="playCell"
+	  alignment="CENTER">
+	<VBox alignment="CENTER">
+		<Label fx:id="playLabel" textFill="#FF0000">
+			<font>
+				<Font size="36.0"/>
+			</font>
+		</Label>
+	</VBox>
+</HBox>

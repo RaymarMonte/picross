@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Button?>
+<HBox alignment="CENTER" xmlns:fx="http://javafx.com/fxml" fx:controller="picross.controllers.BottomBarController">
+	<Button fx:id="startGameButton" onAction="#handleStartGameClick" prefHeight="30" prefWidth="95" style="-fx-background-color: #DEEBF7" />
+</HBox>

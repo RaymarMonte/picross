@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<HBox xmlns:fx="http://javafx.com/fxml" fx:controller="picross.controllers.board.ClueCellController"
+	  alignment="CENTER"
+	  style="-fx-background-color: white">
+	<VBox alignment="CENTER">
+		<Label fx:id="clueLabel"></Label>
+	</VBox>
+</HBox>

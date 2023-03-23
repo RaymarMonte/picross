@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<HBox xmlns:fx="http://javafx.com/fxml" alignment="CENTER" spacing="20" fx:controller="picross.controllers.StatusController" style="-fx-background-color: #FFF2CC" prefWidth="467" prefHeight="113">
+	<HBox alignment="CENTER" spacing="5">
+		<Label fx:id="pointsLabel"/>
+		<Label fx:id="pointsField" style="-fx-border-color: black; -fx-padding: 8 20 8 20; -fx-background-color: #DEEBF7;" text="0" />
+	</HBox>
+	<HBox alignment="CENTER" spacing="5">
+		<Label fx:id="timeRemainingLabel"/>
+		<Label fx:id="timeRemainingField" style="-fx-border-color: black; -fx-padding: 8 20 8 20; -fx-background-color: #DEEBF7;" text="0" />
+	</HBox>
+</HBox>
