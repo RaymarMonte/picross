@@ -15,7 +15,7 @@ public class PicrossLauncher extends Application {
 	@Override
 	public void start(Stage stage) throws IOException {
 		FXMLLoader parentLoader = new FXMLLoader(PicrossLauncher.class.getResource("views/main.fxml"));
-		Scene scene = new Scene(parentLoader.load(), 1000, 1000);
+		Scene scene = new Scene(parentLoader.load(), 1000, 800);
 		stage.setTitle("Picross '23");
 		stage.setScene(scene);
 

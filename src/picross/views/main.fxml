@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.VBox?>
 <VBox xmlns:fx="http://javafx.com/fxml" alignment="CENTER"
 	  style="-fx-padding: 10;"
-	  prefHeight="1000.0"
+	  prefHeight="800.0"
 	  prefWidth="1000.0"
 	  fx:controller="picross.controllers.MainController"
 	  spacing="10"

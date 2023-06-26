@@ -4,7 +4,6 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 <VBox alignment="TOP_CENTER">
-	<Label text="Roche Game Studios"/>
 	<Label text="PICROSS '23">
 		<font>
 			<Font name="System Bold" size="24.0"/>
